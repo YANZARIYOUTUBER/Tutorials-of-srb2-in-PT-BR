@@ -4,10 +4,10 @@ Para ajudar a explicar o processo, adicionarei vários comentários detalhando c
 
 Uma visão geral rápida do que você precisará:
 variável local no nível superior
-Um gancho ThinkFrame
-Verificação "se CBW_Battle"
+Um hook ThinkFrame
+Verificação "if CBW_Battle"
 Uma função para seu script de ação, armazenada local ou globalmente
-Um personagem que usará a função, definido por meio de CBW_Battle.SkinVars[<yourskinname>]
+Um personagem que usará a função, definido por meio de CBW_Battle.SkinVars[<nomedasuaskin>]
 
 Você também pode habilitar 'battledebug 10' no console, pois está testando as habilidades do seu personagem.
 Isso exibirá variáveis relacionadas à batalha e à ação em tempo real para ajudá-lo a solucionar quaisquer problemas que possa encontrar ao longo do caminho.
